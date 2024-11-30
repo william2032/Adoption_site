@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 40px;
+    color:white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.section1 {
+    width: 100%;
+    height: 300px;
+    background: url('images/german\ shepherd.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#home{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    height: fit-content;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#doglist{
+    font-size: 70px;
+    font-weight: bolder;
+    padding: 1rem;
+}
+#home a{
+    color: white;
+    font-weight: bolder;
+    background: #f04336;
+    padding: 1rem;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+#home a:hover{
+    background: #212529;
+    border: 1px #f04336 solid;
+}
+.section{
+    background-color: #080808;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+#div1{
+    width: 100%;
+    padding: 20px;
+}
+#section2{
+    background-color: #111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dog-gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: wrap;
+    width: 100%;
+    gap: 20px;
+    margin: 2rem 0;
+}
+.dog-image{
+    /*flex: 1 1 calc(25% - 20px);*/
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.dog{
+    flex: 1 1 calc(25% - 20px);
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.dog-image:hover{
+    transform: scale(1.05);
+}
+.the-description{
+    background: #d6cbca;
+    height: 10vh;
+    border-radius: 10px;
+}
+.the-description .name{
+     color: #f04336;
+}
+.the-description .behaviour{
+    color: black;
+    font-size: 10px;
+}
+.the-description #adopt-btn{
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: poppins;
+    padding: 10px;
+    height: fit-content;
+    width: 40%;
+    border-radius: 5px;
+    background: #f04336;
+    letter-spacing: 1px;
+    transition:  0.3s ease-in-out;
+}
+.the-description #adopt-btn i{
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+.the-description #adopt-btn:hover{
+    background: #212529;
+    border-bottom: 2px solid #f04336;
+}
+
+
+
+
