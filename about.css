@@ -71,7 +71,7 @@ body::-webkit-scrollbar {
 }
 .about-us {
     height: 130vh;
-    background-image: url("images/basenji\ female.jpg");
+    background-image: url("images/dachshund\ male.jpg");
 
     background-position: center;
     background-size: cover;
@@ -108,7 +108,7 @@ body::-webkit-scrollbar {
 .content {
     height: 150vh;
     width: 50vw;
-    background-image: url("images/chihuahua\ female.jpg");
+    background-image: url("images/pexels-goochie-poochie-3361746.jpg");
     background-position: center;
     background-size: cover;
 
