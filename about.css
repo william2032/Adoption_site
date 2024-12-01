@@ -1,84 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-body,
-h1,
-h2,
-p,
-ul,
-li {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    line-height: 1.6;
-    max-width: 100vw;
-    width: 80vw;
-    max-height: 100vh;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    /* background-color: #FBE7C6; */
-    margin-right: 20px;
 
 }
-
-header {
-    justify-content: space-between;
+header{
+    height: 10vh;
+    padding: 15px;
+    background: fixed;
+    background-color: white;
+    width: 80%;
+    margin-left:10% ;
+}
+nav{
+    display: flex;
     align-items: center;
-    margin-bottom: 12vh;
-    text-align: center;
-    font-size: 45px;
-    justify-content: end;
-    color: #DDFFE7;
-    position: sticky;
-    top: 0;
-    z-index:2000;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav .logo{
+    height: 100px;
+    border:2px solid  #f04336;
+    border-radius: 20px;
+}
+nav .logo:hover{
+    border:2px solid #212529;
+}
+nav .companyName{
+    color: #f04336;
+    font-size: 40px;
+    margin-left: 0;
+    font-family:"lilita one";
 
 }
-
-.navbar {
-    overflow: auto;
-    background-color: #638C80;
-    padding: 1rem 2rem;
-    width: 100vw;
-    margin-left: 0px;
-    /* margin-top: 0px; */
-    overflow: hidden;
-
-}
-
-.navbar a {
-    padding: 12px 50px;
-    color: white;
-    text-align: right;
-    justify-self: auto;
-    background-color: #43616F;
-    border-radius: 6px;
-    margin-left: 25%;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.navbar a:hover {
-    background-color: #D8A7B1;
-}
-
-.navbar h1 {
-    display: inline;
+nav ul li{
     display: inline-block;
-    letter-spacing: 3.5px;
-    font-size: 45px;
-    color: #152D2E;
-    text-align: left;
-    width: 50%;
+    margin: 10px 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    transition: all 0.2s ease;
 }
-
+nav ul li:hover{
+    background: #f04336;
+    padding: 1rem;
+    border-radius:20px ;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav ul li a{
+     text-decoration: none;
+     transition: 0.2s ease;
+     color: #212529;
+}
 body::-webkit-scrollbar {
     display: none;
 }
-
 .container {
     display: grid;
     grid-template-columns: 2fr 4fr;
@@ -90,20 +69,10 @@ body::-webkit-scrollbar {
     overflow: hidden;
 
 }
-
-
-
-  
-  
-
-
-
 .about-us {
     height: 130vh;
-    background-image: url(images/dog-forest.jpg);
+    background-image: url("images/basenji\ female.jpg");
 
-
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -139,9 +108,8 @@ body::-webkit-scrollbar {
 .content {
     height: 150vh;
     width: 50vw;
-    background-image: url(images/two-lovely-dogs.jpg);
+    background-image: url("images/chihuahua\ female.jpg");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 
     opacity: 0; /* Initially hidden */
@@ -197,14 +165,4 @@ footer {
     justify-items: center;
     background-color: #638C80;
 
-}
-
-@media screen and (max-width: 500px) {
-    .navbar a {
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: left;
-        /* If you want the text to be left-aligned on small screens */
-    }
 }
