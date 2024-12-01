@@ -166,6 +166,23 @@ a{
     background: #212529;
     border-bottom: 2px solid #f04336;
 }
+footer {
+    color: black;
+    width: 100%;
+    justify-items: center;
+    background: url("images/Foote\ background.jpg");
+    height: fit-content;
+    padding: 1rem;
+}
+footer span{
+    color: #f04336;
+    font-weight: bolder;
+    font-family: "lilita one";
+}
+footer .fa-github{
+    font-size: 20px;
+}
+
 
 
 

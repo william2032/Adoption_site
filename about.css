@@ -193,9 +193,17 @@ main{
 }
 footer {
     color: black;
-    width: 100vw;
+    width: 100%;
     justify-items: center;
-    background-color: #ffffff;
-    height: 50px;
+    background: url("images/Foote\ background.jpg");
+    height: fit-content;
     padding: 1rem;
+}
+footer span{
+    color: #f04336;
+    font-weight: bolder;
+    font-family: "lilita one";
+}
+footer .fa-github{
+    font-size: 20px;
 }
