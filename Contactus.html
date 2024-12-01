@@ -9,53 +9,65 @@
     <link rel="icon" type="image/jpg" href="images/portifolio-1.jpg">
 </head>
 <body>
-    <header class="head">
-        <span>Contact Us</span> <br/>
-        <a href="../index.html" title="Go back to home page">Home </a>
+    <header>
+        <nav>
+            <img class="logo" src="images/portifolio-1.jpg" alt="Company logo">
+            <div class="companyName">
+                <h3>Nerd-Minds Pet Companion </h3>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Dog_list.html">Dog List</a></li>
+                <li><a href="Adopt_here.html">Adopt Here</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
+    <div class="contactimage"></div>
     <div class="container">
         <div class="form-container">
-        <h2>Send Us a Message</h2>
-        <form action="submit_form.php" method="POST">
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
             
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
             
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
             
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
             
-            <button type="submit">Send now</button> 
-        </form>
-    </div>
-    <div class="Info-container">
-        <h3>information</h3>
-        <p>You ca reach us on the following social media platforms, email us or call on the number below</p>
-        <div class="info-item">
-            <i class="fas fa-envelope"></i>
-            <span>email@yoursite.com</span>
+                <button type="submit">Send now</button> 
+            </form>
         </div>
-        <div class="info-item">
-            <i class="fa-solid fa-phone"></i> 
-            <span>+254794130919</span>
+        <div class="Info-container">
+            <h3>information</h3>
+            <p>You ca reach us on the following social media platforms, email us or call on the number below</p>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <span>email@yoursite.com</span>
+            </div>
+            <div class="info-item">
+                <i class="fa-solid fa-phone"></i> 
+                <span>+254794130919</span>
+            </div>
+            <div class="info-item">
+                <a href="https://twitter.com" class="twitter" target="_blank"></a>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <div class="info-item">
+                <a href="https://instagram.com" class="instagram" target="_blank"></a>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            <div class="info-item">
+                <a href="https://facebook.com" class="facebook" target="_blank"></a>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
         </div>
-        <div class="info-item">
-            <a href="https://twitter.com" class="twitter" target="_blank"></a>
-            <i class="fa-brands fa-x-twitter"></i>
-        </div>
-        <div class="info-item">
-            <a href="https://instagram.com" class="instagram" target="_blank"></a>
-            <i class="fa-brands fa-square-instagram"></i>
-        </div>
-        <div class="info-item">
-            <a href="https://facebook.com" class="facebook" target="_blank"></a>
-            <i class="fa-brands fa-facebook"></i>
-        </div>
-    </div>
     </div>
 </body>
 </html>
