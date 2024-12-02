@@ -166,6 +166,7 @@ a{
     background: #212529;
     border-bottom: 2px solid #f04336;
 }
+
 footer {
     color: black;
     width: 100%;
@@ -183,7 +184,75 @@ footer .fa-github{
     font-size: 20px;
 }
 
+.sign-up {
+    width: 80%;
+    height: 80vh;
+    background-color: #fff;
+
+}
+
+.form-sign {
+    width: 80vw;
+    background: url(images/sign\ -up.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    padding: 2rem;
+    margin-left: 10vw;
+    border-radius: 20px;
+}
+
+label  {
+    font-size: 35px;
+    margin-right: 20%;
+    color: black ;
+    margin-left: 6%;
+    margin-bottom:20px ;
 
 
+}
 
+.input {
+    display: flex;
+    /* align-items:center ; */
+    justify-content: space-between;
+    font-size: 50vw;
+}
 
+input {
+    width: 50%;
+    background: transparent;
+    border-radius: 12px;
+    border: 2x solid black;
+    margin-right: 100px;
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+
+.btn-submit {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 45%;
+   
+}
+
+.btn {
+    border-radius: 16px;
+    background-color: #f04336;
+    width: 25%;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 20px 20px;
+    align-self: center;
+    color:black;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #212529;
+    border: 2px solid #f04336;
+    color: white;
+}
