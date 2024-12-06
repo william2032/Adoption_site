@@ -7,6 +7,8 @@
     <title>Dog_list</title>
     <link rel="stylesheet" href="Dog_list.css">
     <link rel="icon" type="image/jpg" href="images/portifolio-1.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/5a9b01c09b.js" crossorigin="anonymous"></script>
 </head>
 
@@ -205,26 +207,58 @@
                 <h2>Nerd-Minds PetCompanions</h2>
             </div>
             <div class="sign-name">
-                <h4>Sign up now   <i class="fa-solid fa-paw"></i></h4>
+                <h4>Sign up now <i class="fa-solid fa-paw"></i></h4>
+                <h5>Create a free account</h5>
             </div>
+            <div class="google">
+                <button class="gsi-material-button">
+                    <div class="gsi-material-button-state"></div>
+                    <div class="gsi-material-button-content-wrapper">
+                        <div class="gsi-material-button-icon">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" style="display: block;">
+                                <path fill="#EA4335"
+                                    d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                                </path>
+                                <path fill="#4285F4"
+                                    d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                                </path>
+                                <path fill="#FBBC05"
+                                    d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                                </path>
+                                <path fill="#34A853"
+                                    d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                                </path>
+                                <path fill="none" d="M0 0h48v48H0z"></path>
+                            </svg>
+                        </div>
+                        <span class="gsi-material-button-contents">Sign up with Google</span>
+                        <span style="display: none;">Sign up with Google</span>
+                    </div>
+                </button>
+
+            </div>
+
+            <p id="line">or</p> <!--  horizontal line -->
+
             <form action="POST" class="form-sign">
                 <div class="input">
-                    <label for="firstname"> FirstName: </label><br>
-                    <input type="text" required id="firstname"><br>
-                    <label for="surname"> SurName: </label><br>
-                    <input type="text" id="surname"><br>
+                    <label for="firstname"> Username: </label><br>
+                    <input type="text" required id="username" placeholder="Username"><br>
+                    <!-- <input type="text" id="surname"><br> -->
                     <label for="email"> Email: </label><br>
-                    <input type="email" required id="email"><br>
-                    <label for="phonenumber"> Phone: </label><br>
-                    <input type="tel" id="phonenumber" required placeholder="+254(1234567)"><br>
-                    <label for="username"> Username: </label><br>
-                    <input type="text" required id="username"><br>
+                    <input type="email" required id="email"  placeholder="Email address"><br>
                     <label for="password"> Password: </label><br>
-                    <input type="password" id="password" required ><br>
+                    <input type="password" id="password" required  placeholder="password"><br>
+                    <label for="password"> Repeat password: </label><br>
+                    <input type="password" id="password" required  placeholder="Repeat password"><br>
                 </div>
+
                 <div class="btn-submit">
-                    <input type="submit" value="SIGN UP" class="btn">
-                    <input type="reset" value="CLEAR" class="btn">
+                    <input type="submit" value="sign up" class="btn">
+                </div>
+                <div class="have-account">
+                    <p>Already have an account?<a href="#">Sign up</a></p>
                 </div>
             </form>
         </div>
@@ -233,9 +267,9 @@
             <p>
                 Bring joy, love, and companionship into your home by adopting a dog. <br>
                 Many wonderful dogs are waiting for a loving family. <br> Give them a second chance and experience
-                 the unconditional <br> love only a dog can offer. <br> Adopt today and make a difference!
-                Ready to meet your new best friend?  <i class="fa-solid fa-paw"></i> </p>
-                
+                the unconditional <br> love only a dog can offer. <br> Adopt today and make a difference!
+                Ready to meet your new best friend? <i class="fa-solid fa-paw"></i> </p>
+
         </div>
     </div>
 </body>
