@@ -233,6 +233,7 @@ footer .fa-github {
     float: right;
     background: url("images/signup3.jpg");
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
