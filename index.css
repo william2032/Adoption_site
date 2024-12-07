@@ -5,6 +5,9 @@
     margin: 0;
     list-style: none;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 /*****Header***********/
 header{
     height: 10vh;
@@ -23,11 +26,13 @@ nav{
 nav .logo{
     height: 100px;
     border:2px solid  #f04336;
+    background: black;
     border-radius: 20px;
     transition: 0.2s ease;
 }
 nav .logo:hover{
     border:2px solid #212529;
+    background: white;
 }
 nav .companyName{
     color: #f04336;
@@ -95,6 +100,10 @@ main{
     letter-spacing: 1px;
     transition:  0.3s ease-in-out;
 }
+#viewmore a{
+    text-decoration: none;
+    color: white;
+}
 i{
     transform: rotate(45deg);
 }
@@ -110,7 +119,6 @@ footer {
     justify-items: center;
     background: url("images/Foote\ background.jpg");
     height: fit-content;
-    padding: 1rem;
 }
 footer span{
     color: #f04336;
