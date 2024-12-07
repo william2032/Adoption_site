@@ -5,6 +5,9 @@
     margin: 0;
     list-style: none;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 /*****Header***********/
 header{
     height: 10vh;
@@ -97,6 +100,10 @@ main{
     letter-spacing: 1px;
     transition:  0.3s ease-in-out;
 }
+#viewmore a{
+    text-decoration: none;
+    color: white;
+}
 i{
     transform: rotate(45deg);
 }
@@ -112,7 +119,6 @@ footer {
     justify-items: center;
     background: url("images/Foote\ background.jpg");
     height: fit-content;
-    padding: 1rem;
 }
 footer span{
     color: #f04336;

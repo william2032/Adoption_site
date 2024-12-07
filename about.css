@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 body{
     height: fit-content;
 }
@@ -199,7 +202,6 @@ footer {
     justify-items: center;
     background: url("images/Foote\ background.jpg");
     height: fit-content;
-    padding: 1rem;
 }
 footer span{
     color: #f04336;

@@ -7,6 +7,9 @@ body {
     background-color: #fcfcfc;
     color: #5a4034;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 header{
     height: 10vh;
     padding: 15px;
@@ -231,7 +234,6 @@ footer {
     justify-items: center;
     background: url("images/Foote\ background.jpg");
     height: fit-content;
-    padding: 1rem;
 }
 footer span{
     color: #f04336;
