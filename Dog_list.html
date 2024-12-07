@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="Dog_list.css">
     <link rel="icon" type="image/jpg" href="images/PetCompanions1-01.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
     <script src="https://kit.fontawesome.com/5a9b01c09b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+<div id="blur">
     <header>
         <nav>
             <img class="logo" src="images/PetCompanions3-01.png" alt="Company logo">
@@ -200,6 +200,8 @@
                 <br>@Samuel-Wanza<br>@isaac-blip98 <br>@Chero58 </strong></p>
         <p>Email us at <strong>nerdsminds4@gmail.com</strong> </p>
     </footer>
+</div>
+
     <div id="sign-up">
         <div class="left-col">
             <div class="logoicon">
@@ -273,14 +275,19 @@
 
         </div>
     </div>
-    
 
     <script>
         function opensignup() {
             document.getElementById('sign-up').style.display = 'grid';
+            document.getElementById('blur').style.filter ='blur(5px)';
+            document.getElementById('blur').style.userSelect = 'none';
+            document.getElementById('blur').style.pointerEvents = 'none';
         }
         function closesignup() {
             document.getElementById('sign-up').style.display ='none';
+            document.getElementById('blur').style.filter ='blur(0)';
+            document.getElementById('blur').style.userSelect = 'all';
+            document.getElementById('blur').style.pointerEvents = 'all';
         }
     </script>
 </body>

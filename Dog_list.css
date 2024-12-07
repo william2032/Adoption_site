@@ -10,7 +10,11 @@
 body::-webkit-scrollbar {
     display: none;
 }
-
+#blur{
+    filter: blur(0);
+    user-select: all;
+    pointer-events: all;
+}
 header {
     height: 10vh;
     padding: 15px;
@@ -229,9 +233,9 @@ footer .fa-github {
     border-radius: 16px;
     border: 2px solid #f04336;
     margin-left: 10%;
-    position: absolute;
+    position: fixed;
     top: 0;
-    transform: translate(-5% ,40%);
+    transform: translate(3% ,8%);
     display: none;
 }
 
@@ -473,8 +477,7 @@ footer .fa-github {
     position: relative;
 }
 
-#line:before,
-#line:after {
+#line:before,#line:after {
     content: "";
     position: absolute;
     top: 50%;
