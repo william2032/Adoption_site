@@ -23,11 +23,13 @@ nav{
 nav .logo{
     height: 100px;
     border:2px solid  #f04336;
+    background: black;
     border-radius: 20px;
     transition: 0.2s ease;
 }
 nav .logo:hover{
     border:2px solid #212529;
+    background: white;
 }
 nav .companyName{
     color: #f04336;
